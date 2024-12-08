@@ -1,0 +1,77 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+  .head{
+    border-radius: 5px;
+    justify-self: center;
+    margin-top: 20px;
+  }
+  body{
+    background-image: url("./Image/aaron-burden-bcn5fhJGtD8-unsplash.jpg");
+    background-repeat: repeat;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 100%;
+  }
+  .googlelogo{
+    justify-self: center;
+    background-color: black;
+    border-radius: 30px;
+  }
+  .googlelogo{
+    margin-top: 70px;
+  }
+.searchbar{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    justify-self: center;
+    margin-top: 40px;
+    /* box-shadow: 0 10px 10px 0px; */
+    padding: 5px;
+    width: 600px;
+    height: 48px;
+    border-radius: 100px;
+    overflow: hidden;
+    /* max-width: 100px; */
+}
+#google-2{
+  color: black;
+  justify-self: center;
+  padding: 0px 220px 0px 170px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50px;
+  border: none;
+}
+.searchbar:hover{
+  /* background-color: black; */
+  border: none;
+}
+#google-2::placeholder{
+  display: flex;
+  justify-items: flex-end;
+  justify-content: first baseline;
+  color: #d99333;
+}
+ .material-symbols-outlined{
+  margin-top: 3px;
+ }
+ .poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
